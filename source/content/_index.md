@@ -6,8 +6,6 @@ draft: false
 
 {{< round-image src="../images/adrin-min.jpeg" >}}
 
-{{< text-style class="about" >}}
-
 Hi, I'm Adrin,
 </br>
 </br>
