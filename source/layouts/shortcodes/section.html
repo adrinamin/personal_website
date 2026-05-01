@@ -1,2 +1,4 @@
-{{ $content := .Inner }}
-{{ partial "content-section.html" (dict "Content" $content) }}
+{{ $content := .Inner | markdownify }}
+<div class="content-section">
+  {{ $content | safeHTML }}
+</div>
