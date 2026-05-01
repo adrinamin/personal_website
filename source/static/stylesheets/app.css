@@ -67,14 +67,14 @@ body::before {
   100% { opacity: 1; transform: scale(1.1); }
 }
 
-a.base-anchor {
+a {
   color: var(--list-anchor-color);
   text-decoration: none;
   position: relative;
   transition: color var(--transition-speed) var(--ease-out);
 }
 
-a.base-anchor::after {
+a::after {
   content: '';
   position: absolute;
   width: 0;
@@ -85,11 +85,11 @@ a.base-anchor::after {
   transition: width var(--transition-speed) var(--ease-out);
 }
 
-a.base-anchor:hover {
+a:hover {
   color: var(--accent-color);
 }
 
-a.base-anchor:hover::after {
+a:hover::after {
   width: 100%;
 }
 
@@ -140,6 +140,7 @@ footer {
   width: 100%;
   background-color: var(--background);
   padding: 1rem 0;
+  text-align: center
 }
 
 @media only screen and (min-width: 48em){
