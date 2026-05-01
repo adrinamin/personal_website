@@ -137,7 +137,6 @@ a.base-anchor:hover::after {
 footer
 */
 footer {
-  bottom: 0;
   width: 100%;
   background-color: var(--background);
   padding: 1rem 0;
@@ -145,8 +144,6 @@ footer {
 
 @media only screen and (min-width: 48em){
   footer {
-    bottom: 0;
-    text-align: center;
     width: 100%;
     background-color: var(--background);
     padding: 1rem 0;
