@@ -259,15 +259,19 @@ ul li::before {
 profile image
 */
 .round-profile-img {
-  width: 120px;
+  width: 120px;           /* Default size */
   height: 120px;
   border-radius: 50%;
-  object-fit: cover;
+  object-fit: cover;      /* Ensures image covers the circle without stretching */
   border: 3px solid var(--accent-color);
   margin: 0 auto 1.5rem auto;
   display: block;
   transition: transform var(--transition-speed) var(--ease-out), box-shadow var(--transition-speed) var(--ease-out);
   box-shadow: 0 4px 12px var(--navbar-box-shadow-color);
+  
+  /* CRITICAL FIX FOR MOBILE */
+  max-width: 100%;        /* Never exceed container width */
+  height: auto;           /* Maintain aspect ratio */
 }
 
 .round-profile-img:hover {
@@ -275,9 +279,18 @@ profile image
   box-shadow: 0 6px 16px var(--navbar-box-shadow-color);
 }
 
+/* Tablet/Desktop */
 @media only screen and (min-width: 600px){
   .round-profile-img {
     width: 150px;
     height: 150px;
+  }
+}
+
+/* iPhone / Small Mobile (Optional override if 120px is still too big) */
+@media only screen and (max-width: 480px){
+  .round-profile-img {
+    width: 100px;
+    height: 100px;
   }
 }

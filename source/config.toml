@@ -4,3 +4,9 @@ defaultContentLanguage = "en"
 
 title = "Adrin Amin Salehi"
 paginate = 5
+
+[params]
+  description = "Software Engineer | Developer | Sports Enthusiast"
+  github = "https://github.com/adrinamin"
+  linkedin = "https://www.linkedin.com/in/adrin-amin-salehi-175b14125"
+  linktree = "https://linktr.ee/adrinamin"
