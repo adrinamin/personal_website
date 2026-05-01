@@ -2,11 +2,5 @@ baseURL = "https://adrinaminsalehi.com/"
 
 defaultContentLanguage = "en"
 
-[[languages]]
-disabled = false
-languageName = "English"
-weight = 1
-code = "en"
-
 title = "Adrin Amin Salehi"
 paginate = 5
