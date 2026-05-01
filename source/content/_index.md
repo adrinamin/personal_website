@@ -13,5 +13,3 @@ I'm an athlete and technology enthusiast. These two things are an integral part 
 </br>
 Being a Software Engineer and an amateur athlete means my time is very limited. But If I have time, I try to write down my thoughts to somthing related to those two fields. Maybe, there is something for you?
 </br></br>
-
-{{< /text-style >}}
