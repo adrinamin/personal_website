@@ -1,7 +1,5 @@
 ---
-title: "About"
-sub_header: ""
-slug: "about"
+title: "Hi! I'm Adrin"
 date: 2026-05-01T09:32:06+01:00
 draft: false
 ---

@@ -1,6 +1,5 @@
 {{ define "main"}}
 <div class="intro">
-    {{ with .Site.GetPage "" }}{{ .Content }}{{ end }}
+    {{ .Content }}
 </div>
-{{ partial "latest-stuff" . }}
 {{ end }}
