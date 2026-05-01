@@ -254,3 +254,30 @@ ul li::before {
   color: var(--accent-color);
   font-weight: bold;
 }
+
+/*
+profile image
+*/
+.round-profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--accent-color);
+  margin: 0 auto 1.5rem auto;
+  display: block;
+  transition: transform var(--transition-speed) var(--ease-out), box-shadow var(--transition-speed) var(--ease-out);
+  box-shadow: 0 4px 12px var(--navbar-box-shadow-color);
+}
+
+.round-profile-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px var(--navbar-box-shadow-color);
+}
+
+@media only screen and (min-width: 600px){
+  .round-profile-img {
+    width: 150px;
+    height: 150px;
+  }
+}
