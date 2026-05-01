@@ -18,7 +18,9 @@ I'm an athlete and technology enthusiast. These two things are an integral part 
 - **Other Projects:** Hyrox and CrossFit 
 {{< /section >}}
 
+{{< section >}}
 ## Connect
 - [GitHub]({{< param github >}})
 - [LinkedIn]({{< param linkedin >}})
 - [socials]({{< param linktree >}}) (coding, sports and life)
+{{< /section >}}
