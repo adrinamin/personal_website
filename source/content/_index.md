@@ -8,7 +8,7 @@ draft: false
 
 {{< section >}}
 ## AdrinDev
-Hey there! If you are not a bot, welcome on my page! I'm just a dude who cares about writing awesome software. 
+Hey there! Welcome on my page! I'm just a dude who cares about writing awesome software.
 If you want connect, check out the links to my socials below. 
 {{< /section >}}
 
